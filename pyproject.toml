@@ -1,0 +1,17 @@
+[project]
+name = "atlantis-langgraph"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "langchain-huggingface>=0.3.0",
+    "langchain[anthropic]>=0.3.26",
+    "langgraph>=0.5.1",
+    "python-dotenv>=1.1.1",
+    "sentence-transformers>=5.0.0",
+    "supabase>=2.16.0",
+    "tqdm>=4.67.1",
+    "transformers[torch]>=4.53.1",
+]
